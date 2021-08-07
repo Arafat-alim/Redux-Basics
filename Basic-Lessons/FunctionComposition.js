@@ -10,4 +10,4 @@ const trim = (str) => str.trim();
 const WrapInDiv = (str) => `<div>${str}</div>`;
 const toLowerCase = (str) => str.toLowerCase();
 //more advanced way to do with function
-const result = toLowerCase(WrapInDiv(trim(input)));
+const result = WrapInDiv(toLowerCase(trim(input)));
