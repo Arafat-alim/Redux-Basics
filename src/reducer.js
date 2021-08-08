@@ -1,7 +1,7 @@
 //[] initial store
 lastIndex = 0;
 
-function reducer(state = [], action) {
+export default function reducer(state = [], action) {
   // if-else condition
   //   if (action.type === "bugAdded") {
   //     return [
