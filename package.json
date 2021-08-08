@@ -12,9 +12,10 @@
   "devDependencies": {
     "webpack": "4.41.6",
     "webpack-cli": "3.3.11",
-    "webpack-dev-server": "3.10.3"
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "immutable": "^4.0.0-rc.14",
     "lodash": "^4.17.21"
   }
 }
